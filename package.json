@@ -1,0 +1,34 @@
+{
+  "name": "desafio-softmakers-junior",
+  "version": "1.0.0",
+  "description": "Repositorio contendo a resolução do desafio tecnico da empresa Softmakers, tal desafio não foi respondido a fim de preencher uma vaga e sim para me testar e para a pratica.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "tsx watch src/server.ts "
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Durukar/desafio-SoftMakers-Junior.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Durukar/desafio-SoftMakers-Junior/issues"
+  },
+  "homepage": "https://github.com/Durukar/desafio-SoftMakers-Junior#readme",
+  "devDependencies": {
+    "@rocketseat/eslint-config": "^2.2.2",
+    "@types/node": "^22.1.0",
+    "@typescript-eslint/eslint-plugin": "^6.21.0",
+    "eslint": "^8.57.0",
+    "prettier": "^3.2.5",
+    "prisma": "^5.17.0",
+    "tsx": "^4.16.5",
+    "typescript": "^5.5.4"
+  },
+  "dependencies": {
+    "@prisma/client": "^5.17.0",
+    "fastify": "^4.28.1"
+  }
+}
